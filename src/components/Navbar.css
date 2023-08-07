@@ -1,0 +1,12 @@
+.nav {
+    background-color: #F55A5A;
+    padding-block: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 0.25rem;
+}
+
+.nav h4 {
+    color: white;
+    font-weight: 500;
+}

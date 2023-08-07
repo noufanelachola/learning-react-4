@@ -1,0 +1,52 @@
+.semiBold {
+    font-weight: 600;
+}
+
+.CardCont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+
+}
+
+.CardCont .photo {
+    width: 12rem;
+    height: 16rem;
+    overflow: hidden;
+    border-radius: 0.25rem;
+}
+
+.CardCont .photo img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.cardDetails {
+    max-width: 25rem;
+}
+
+.cardDetailsFirst {
+    display: flex;
+    align-items: center;
+    gap: 0.09rem;
+}
+
+.cardDetailsFirst .locIcon {
+    height: 0.9rem;
+    width: 0.75rem;
+}
+
+.cardDetailsFirst .loc {
+    letter-spacing: 0.085rem;
+}
+
+.cardDetailsFirst .locLink {
+    margin-left: 1rem;
+    color: rgba(172, 168, 168, 0.767);
+}
+
+.cardDetailsSecond .cardTitle {
+    margin-bottom: 0.75rem;
+} 
